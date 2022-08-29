@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    margin: 5% 25%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.msg-container{
+    overflow-y: scroll;
+    margin: 5px 0;
+}
+
+.msg{
+    min-height: 20px;
+    width:fit-content;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(203, 151, 253);
+    color: rgb(49, 49, 49);
+    font-family: 'Space Mono', monospace;
+}
+.right-msg{
+    float: right;
+    clear: both;
+    background-color: aqua;
+}
+
+.center-msg{
+    clear: both;
+    margin: 5px auto;
+    min-height: 20px;
+    width:75%;
+    padding: 5px;
+    background-color: rgb(143, 143, 143);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 9pt;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-msg{
+    float: left;
+    clear: both;
+}
+.user-input{
+    width: 75%;
+    margin: 5px;
+    padding: 3px;
+
+}
+
+.send-btn{
+    width: 25%;
+    margin: 5px;
+    background-color: rgb(33, 144, 242);
+    border: none;
+    padding: 3px;
+    font-weight: 700;
+    color: white;
+}
+
+.send{
+    margin: 5px 0;
+}
+
+.send-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
